@@ -20,8 +20,16 @@ export interface EvolutionResponse {
 }
 
 export interface BinanceTicker {
-    c: string,
-    b: string,
-    a: string,
+    c: number,
+    b: number,
+    a: number,
     s: string
+}
+
+export interface Widgets {
+    screen: any,
+    chart: any,
+    currentPrice: any,
+    spread: any,
+    asciiArt: any
 }
